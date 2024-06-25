@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { delay } from "src/app/delay";
 
+export const dynamic = "force-dynamic";
+
 export default async function Page() {
 	await delay();
 
